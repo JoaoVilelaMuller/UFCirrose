@@ -1,3 +1,48 @@
-body{
-    color: blueviolet;
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Flexbox no body */
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../Imagens/tijolo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Header */
+header {
+    text-align: center;
+    font-size: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: rgb(48, 47, 47);
+    color: rgb(255, 0, 0);
+}
+
+/* Main ocupa o espaço disponível */
+main {
+    flex: 1;
+    color: wheat;
+    font-size: 60px;
+    padding: 200px;
+}
+
+/* Footer no final da página */
+footer {
+    background-image: url('../Imagens/fogo_rodape.webp');
+    background-size: 100% 100%; /* Força a imagem a se ajustar ao tamanho do rodapé */
+    background-position: center; /* Centraliza a imagem dentro do rodapé */
+    background-repeat:repeat;
+    height: 150px; /* Define a altura do rodapé */
+    color: white; /* Contraste de cor para o texto */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
 }
