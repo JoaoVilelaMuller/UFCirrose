@@ -1,31 +1,39 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Flexbox no body */
 body {
     display: flex;
     flex-direction: column;
-    background-image: url('../Imagens/fundo ufc.jpg');
+    background-image: url('../Imagens/ringue.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
+/* Header */
 header {
-    margin-top: 3rem;
-    margin-bottom: -7rem;
     text-align: center;
     font-size: 150px;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
     color: wheat;
 }
 
+/* Main ocupa o espaço disponível */
 main {
     flex: 1;
     color: wheat;
     font-size: 60px;
     padding: 200px;
-    text-align: center;
 }
 
+/* Footer no final da página */
 footer {
-    color: white;
+    color: white; /* Contraste de cor para o texto */
     text-align: center;
     display: flex;
     justify-content: center;
@@ -33,7 +41,7 @@ footer {
 }
 
 button {
-    width: 20rem;
+    width: 28rem;
     height: 5rem;
     font-size: 2rem;
     background-color: rgba(0, 0, 0, 0.555);
