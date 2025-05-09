@@ -4,14 +4,16 @@ html, body {
     padding: 0;
 }
 
-/* Flexbox no body */
+
 body {
     display: flex;
     flex-direction: column;
-    background-image: url('../Imagens/tijolo.jpg');
+    /*background-image: url('../Imagens/tijolo.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: black;
+    align-items: center;
 }
 
 /* Header */
@@ -44,11 +46,14 @@ button {
     width: 28rem;
     height: 5rem;
     font-size: 2rem;
-    background-color: rgba(0, 0, 0, 0.555);
+    background-color: rgba(255, 255, 255, 0.555);
     color: wheat;
     border-radius: 1.6rem;
 }
 button:hover{
     transition: 0.6s;
     background-color: red;
+}
+img{
+    display: block;
 }
