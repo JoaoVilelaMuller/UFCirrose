@@ -57,6 +57,7 @@ button:hover{
 .lutador{
     font-size: 30px;
     display: flex;
+    padding: 50px;
 }
 img{
     padding: 50px;
